@@ -1,5 +1,6 @@
-# Aspectation Manifesto
+# Multi-Language Manifesto
 
+Multi-Language programming paradigm is a principle of building software using hierarhical structure united by something like hyperlinks instead of writing a flat text.
 
 **Main principles:**
 
