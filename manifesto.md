@@ -48,13 +48,13 @@ Modification of an aspect language part of code will always change generated bin
 
 ### 3. gluing aspect parts using a hash 
 
-Analyzing the whole codebase each time when only a few lines are changed is not practical at all. Because running some analytics may be quite CPU-consuming. But on another side, since analytics are the results of applying aspects to code then any changing of code will change analytics. So does it mean that static analysis of a main language item is not practical?
+Analyzing a whole codebase each time when only a few lines are changed is not practical at all. Because running some analytics may be quite CPU-consuming. But on another side, since analytics are the results of applying aspects to code then any changing of code will change analytics. So does it mean that static analysis of a main language item is not practical?
 
 The principle suggests a way to run analytics efficiently: to be able to modify a main language item without running a thorough analyzing down function calls hierarchy the main language items should be split into the smallest possible pieces (like functions for example) and then each piece should be signed by a hash. It will allow using the memoization technique in a compiler to increase the speed of compiling a main language and aspects.   
 
-When a parent function depends on subroutine functions then a source of hash should be not only the parent function content but also hash codes of subroutine functions. So when down hierarchy any piece of code is changed hash code of related subroutine code will be changed so analytics should be run for the subroutine hierarchy and then for a parent function. 
+When a parent function depends on subroutine functions then a source of hash should be not only the parent function content but also hash codes of subroutine functions. So when down hierarchy any piece of code is changed hash code of related subroutine code will be changed thus analytics should be run for the subroutine hierarchy and then for a parent function. Changing name of a function should not change its hash or hash of using it functions.
 
-Since an analytic file and a binary file are generated from a function by applying an aspect item then all four pieces should be tied together by a hash code. 
+Since an analytic file and a binary file are generated from a function by applying a directive then all four pieces should be tied together by a hash code. 
 
 ### 4. make it work, make it right, make it fast
 
