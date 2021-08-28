@@ -8,4 +8,4 @@ For some auxiliary languages, it is possible to have a separate developer specia
 
 Each of the auxiliary languages, in addition to effect generated machine code, also generates different analytics. Thus, in contrast to other programming languages, where a programmer needs to keep in mind various aspects of the behavior of a particular language, in a multi-language, all the features of behavior can be checked in the corresponding analytics without being distracted by related aspects. As a result, a programmer does not need to analyze every line of a program from all aspects simultaneously, trying to guess what that line does at runtime. It is enough for a developer to check generated analytics for a system part to check that a directive was applied correctly. 
 
-You can learn more details and recommendations on a multilanguage design in the [MultiLanguage Manifesto](https://github.com/jinnzest/aspectation-manifesto/blob/master/manifesto.md). 
+You can learn more details and recommendations on a multilanguage design in the [MultiLanguage Manifesto](https://github.com/jinnzest/multilanguage-manifesto/blob/master/manifesto.md). 
