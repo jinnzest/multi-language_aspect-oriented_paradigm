@@ -1,7 +1,7 @@
-# MultiLanguage Manifesto
+# Multi Language Manifesto
 
-MultiLanguage programming paradigm is a principle of building software using hierarhical structure united by something like hyperlinks instead of writing a flat text.
-Each MultiLanguage consists of a main language and different aspect languages.
+Multi-Language programming paradigm is a principle of building software using hierarhical structure united by something like hyperlinks instead of writing a flat text.
+Each Multi-Language consists of a main language and different aspect languages.
 
 **Main principles:**
 
