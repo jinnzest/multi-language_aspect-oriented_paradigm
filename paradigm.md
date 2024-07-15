@@ -1,6 +1,6 @@
-# The MultiLanguage Manifesto
+# Multi-Language Aspect-Oriented Paradigm
 
-The MultiLanguage programming paradigm is a method of building software using a hierarchical structure connected by links instead of relying on flat text. Each MultiLanguage program comprises a primary language and several other languages that define different aspects.
+Multi-Language Aspect-Oriented programming Paradigm (MLAOP) is a method of building software using a hierarchical structure connected by links instead of relying on flat text. Each MLAOP program comprises a primary language and several other languages that define different aspects.
 
 **Main Principles:**
 
@@ -15,7 +15,7 @@ The MultiLanguage programming paradigm is a method of building software using a 
 
 ### 1. Primary and Aspect Languages
 
-- There is a primary deterministic language that abstracts everything unrelated to abstract data types (machine-independent data types) or data transformation instructions (how to produce output from input).
+- There is a primary deterministic language/languages that abstracts everything unrelated to abstract data types (machine-independent data types) or data transformation instructions (how to produce output from input).
 - Various aspect languages describe different aspects of a program, such as data item size, function domain, algorithmic complexity, etc. Each aspect consists of directives and/or analytics.
 - A directive language is used to configure a construct of the primary language concerning an aspect. Developers provide directives to fine-tune aspects. The compiler applies directives to the primary language to generate analytics and binary code.
 - Developers read analytics to gain insights about each construct of the primary language. The compiler utilizes analytics to generate binary code.
