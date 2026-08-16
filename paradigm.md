@@ -1,6 +1,6 @@
-# Multi-Language Paradigm
+# Multi-View Languages Integration Paradigm
 
-The Multi-language Paradigm (MLP) is a method of building software using a hierarchical structure connected by links instead of relying on flat text. Each MLP program comprises a primary language and several other languages that define different aspects.
+The Multi-View Languages Integration Paradigm (MLP) is a method of building software using a hierarchical structure connected by links instead of relying on flat text. Each MLP program comprises a primary language and several other languages that define different aspects.
 
 **Main Principles:**
 

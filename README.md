@@ -1,6 +1,6 @@
-# Multi-Language Paradigm
+# Multi-View Languages Integration Paradigm
 
-Multi-Language is a programming paradigm aimed at creating faster and more robust applications through the automation of routine tasks and reducing complexity by dividing a programming language into several interconnected languages.
+Multi-View Languages Integration is a programming paradigm aimed at creating faster and more robust applications through the automation of routine tasks and reducing complexity by dividing a programming language into several interconnected languages.
 
 All programming languages created until now have attempted to express complex and multi-layered concepts using flat text. Consequently, business logic is always combined with various low-level memory management methods (or even high-level automated ones), control means for execution speed, and other methods for enhancing code durability, etc.
 
@@ -14,4 +14,4 @@ At the beginning of a project, a developer can configure a set of auxiliary lang
 
 Each of the auxiliary languages, in addition to generating machine code, also generates different analytics. Thus, in contrast to other programming languages, where a programmer needs to keep in mind various aspects of the behavior of a particular language, in a MultiLanguage, all the features of behavior can be checked in the corresponding analytics without being distracted by related aspects. As a result, a programmer does not need to analyze every line of a program from all aspects simultaneously, trying to guess what that line does at runtime. It is enough for a developer to check generated analytics for a system part to check that a directive was applied correctly.
 
-[Read Multi-Language Aspect-Oriented Paradigm for in-depth details and recommendations](https://github.com/jinnzest/multi-language_aspect-oriented_paradigm/blob/master/manifesto.md).
+[Read Multi-View Languages Integration Aspect-Oriented Paradigm for in-depth details and recommendations](https://github.com/jinnzest/Multi-View Languages Integration_aspect-oriented_paradigm/blob/master/manifesto.md).
