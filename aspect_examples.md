@@ -1,7 +1,7 @@
 
 **Aspect examples:**
 
-1. domain of a function
+1. range of a function
 2. side effects
 3. acquiring/releasing resources
 4. algorithmic complexity
@@ -20,7 +20,7 @@
 
 ### 1. domain of function aspect
 
-It is all about the mathematical domain of a function. So for each function input, the aspect should provide a prediction about function output. Of course, there are a lot of operations for which domain of a function is not defined. So literally every function could return undefined result. 
+It is all about the mathematical range of a function. So for each function input, the aspect should provide a prediction about function output. Of course, there are a lot of operations for which domain of a function is not defined. So literally every function could return undefined result. 
 
 There are a lot of languages which have a data type to hold an undefined result. But because mostly every operation may fail using special type for an uncertain result will lead to all functions returning an optional result. Another approach to handling such kind of errors is to use exceptions. But again as mostly every operation may fail every function gets verbose with a lot of exceptions being defined in the function signature. 
 
